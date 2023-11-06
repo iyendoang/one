@@ -1,0 +1,32 @@
+{
+  "menu": [
+    {
+      "name": "Dashboards",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard",
+
+      "submenu": [
+        {
+          "url": "/",
+          "name": "Analytics",
+          "slug": "dashboard-analytics"
+        }
+      ]
+    },
+    {
+      "name": "Masters",
+      "icon": "menu-icon tf-icons bx bxl-php",
+      "slug": "masters",
+      "submenu": [
+        {
+          "url": "masters/users",
+          "name": "User Management",
+          "slug": "users.index"
+        }
+      ]
+    },
+    {
+      "menuHeader": "Apps & Pages"
+    }
+  ]
+}

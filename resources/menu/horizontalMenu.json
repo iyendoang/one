@@ -1,0 +1,32 @@
+{
+  "menu": [
+    {
+      "name": "Dashboards",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard",
+
+      "submenu": [
+        {
+          "url": "/",
+          "name": "Analytics",
+          "slug": "dashboard-analytics"
+        }
+      ]
+    },
+    {
+      "name": "Masters",
+      "icon": "menu-icon tf-icons bx bxl-php",
+      "slug": "laravel-example",
+      "submenu": [
+        {
+          "url": "laravel/user-management",
+          "name": "User Management",
+          "slug": "laravel-example-user-management"
+        }
+      ]
+    },
+    {
+      "menuHeader": "Apps & Pages"
+    }
+  ]
+}
